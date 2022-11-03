@@ -17,7 +17,6 @@ public class Hello {
         for(int i = 0; i < c; i++){
             a[i] = sc.nextInt();
         }
-        //直接打印数组a出来的是数组的首地址，必须用toString方法
         System.out.println(Arrays.toString(runningsum(a,c)));
         System.out.println("c:"+c);
     }
