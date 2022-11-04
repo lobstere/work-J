@@ -1,2 +1,2 @@
-public class Scanner_test {
+public class ScannerTest {
 }
