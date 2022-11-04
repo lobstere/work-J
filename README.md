@@ -1,1 +1,2 @@
-此项目仅为学习研究，部分课程代码与视频讲解。
+此项目仅为个人学习研究，调试与各种方式获取知识。
+This project is only for personal study, debugging and various ways to acquire knowledge.
