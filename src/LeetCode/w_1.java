@@ -1,13 +1,15 @@
 package LeetCode;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class w_1 {
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         int[] indexs = new int[2];
 
         // 建立k-v ，一一对应的哈希表
-        HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
+        HashMap<Integer,Integer> hash = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
             if(hash.containsKey(nums[i])){
                 indexs[0] = i;
@@ -28,5 +30,19 @@ public class w_1 {
         //     }
         // }
         return indexs;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("nums = ");
+        String str = sc.nextLine();
+        System.out.print("target =");
+        int target = sc.nextInt();
+        String[] arr  = str.split(" ");
+        int[] b = new int[arr.length];
+        for(int j = 0; j<b.length;j++) {
+            b[j] = Integer.parseInt(arr[j]);
+        }
+        System.out.println(Arrays.toString(b));
+        System.out.println(Arrays.toString(twoSum(b, target)));
     }
 }
