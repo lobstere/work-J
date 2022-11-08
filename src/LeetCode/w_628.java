@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class w_628 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("nums = ");
+        System.out.print("nums = ");
         String str = sc.nextLine();
         String[] arr  = str.split(" ");
         int a = 1;
