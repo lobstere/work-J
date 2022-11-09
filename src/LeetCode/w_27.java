@@ -15,7 +15,7 @@ public class w_27 {
         for(int i=0;i<nums.length;i++){
             nums[i] = Integer.parseInt(n[i]);
         }
-        
+
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != k) {
                 nums[a] = nums[i];
