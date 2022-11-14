@@ -7,29 +7,24 @@ public class w_66 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean flag=false;
+        boolean flag2= false;
         int i =0;
         System.out.print("输入一组数字：");
-        String[] n = sc.nextLine().split(" ");
+        String[] n = sc.nextLine().split(",");
         int[] ns = new int[n.length];
-//        int t = ns[Math.min(i,ns.length-1)];
         for (i =0;i<ns.length;i++){
             ns[i] = Integer.parseInt(n[i]);
             flag =true;
         }
         for (i =0;i<ns.length;i++){
-            if(ns[0]==0){
-                ns[0] = Integer.parseInt("1");
-                System.out.println(Arrays.toString(ns));
-                flag =true;
-            }
             if(ns[i]<0) {
                 System.out.println("请输入非负整数");
                 flag=false;
                 break;
             }
         }
-        ns[ns.length-1] = Integer.parseInt(String.valueOf(ns[ns.length-1]+1));
         if(flag){
+            ns[ns.length-1] = Integer.parseInt(String.valueOf(ns[ns.length-1]+1));
             System.out.println(Arrays.toString(ns));
         }
     }
