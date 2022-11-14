@@ -2,7 +2,7 @@ package work;
 
 import java.util.Scanner;
 
-public class m_9 {
+public class m_L_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

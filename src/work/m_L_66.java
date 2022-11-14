@@ -3,7 +3,7 @@ package work;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class m_66_1 {
+public class m_L_66 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] n= sc.nextLine().split(",");
