@@ -10,12 +10,12 @@ public class e {
             for(int i=0;i<t.length;i++){
                 t[i]=sc.nextInt();
             }
-            for(int j=0;j<t.length;j++){
+            for (int i : t) {
 //                for(int k=t.length-1;j>0;k--){
 //                    System.out.println(t[k]);
 //                }
-                if(t[j]>x){
-                    System.out.println(t[j]);
+                if (i > x) {
+                    System.out.println(i);
                 }
             }
             break;
@@ -25,8 +25,6 @@ public class e {
 //public class Main {
 //    public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in);
-//        // 注意 hasNext 和 hasNextLine 的区别
-//        // 注意 while 处理多个 case
 //        while (in.hasNextInt()){
 //            int a = in.nextInt();
 //            int[] b = new int[a];
