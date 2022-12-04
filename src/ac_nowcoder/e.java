@@ -1,3 +1,5 @@
+package ac_nowcoder;
+
 import java.util.*;
 
 public class e {

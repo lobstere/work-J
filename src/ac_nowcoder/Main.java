@@ -1,5 +1,7 @@
+package ac_nowcoder;
+
 import java.util.*;
-public class F {
+public class Main {
     //判断一个数是否是质数（素数）
     public static void isPrimeNumber(int num){
         int temp = 1;

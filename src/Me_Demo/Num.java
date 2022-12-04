@@ -1,3 +1,5 @@
+package Me_Demo;
+
 public class Num {
     public static void main(String[] args) {
         //  n
@@ -26,7 +28,5 @@ public class Num {
         i=n+2;
         System.out.println(i);
 
-
-        i=0;
     }
 }

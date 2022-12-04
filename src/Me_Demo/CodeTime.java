@@ -1,3 +1,5 @@
+package Me_Demo;
+
 import java.util.Scanner;
 
 public class CodeTime {

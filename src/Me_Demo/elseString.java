@@ -1,3 +1,5 @@
+package Me_Demo;
+
 public class elseString {
     public static boolean canConstruct(String ransomNote, String magazine) {
         //记录杂志字符串出现的次数
