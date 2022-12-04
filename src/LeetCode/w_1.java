@@ -37,12 +37,12 @@ public class w_1 {
         String str = sc.nextLine();
         System.out.print("target =");
         int target = sc.nextInt();
-        String[] arr  = str.split(",");
+        String[] arr  = str.split(" ");
         int[] b = new int[arr.length];
         for(int j = 0; j<b.length;j++) {
             b[j] = Integer.parseInt(arr[j]);
         }
-//        System.out.println(Arrays.toString(b));
+        System.out.println(Arrays.toString(b));
         System.out.println(Arrays.toString(twoSum(b, target)));
     }
 }

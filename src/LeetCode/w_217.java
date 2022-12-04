@@ -16,9 +16,9 @@ public class w_217 {
         Set<Integer> res = new HashSet<Integer>();
         for(int i :num){
             res.add(i);
-//            System.out.println(res.size() < nums.length);
+            System.out.println(res.size() < nums.length);
         }
-        System.out.println(res.size() < nums.length);
+//        System.out.println(res.size() < nums.length);
     }
 }
 //  题解
