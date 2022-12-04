@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第三题</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body,html{
+            height: 100%;
+            width: 100%;
+        }
+        #text{
+            width: 50%;
+            height: 120px;
+            background-color: #00ffcc;
+            margin-top: 60px;
+            margin-left: 60px;
+            color: #ff00ff;
+            font-family: '黑体';
+        }
+        .btn_i{
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="text">
+        <div class="btn">
+            <input type="button" onclick="re()" value="风格1" class="btn_i btn1">
+            <input type="button" onclick="cg()" value="风格2" class="btn_i btn2">
+        </div>
+        <div id="text_t">
+            <a>群文件客户人群五i让用户七五i人gqwuwirghqwyiuewqiueyqwhe</a>
+        </div>
+    </div>
+    <script>
+        function re(){
+            document.getElementById('text').style.color='#ff00ff';
+            document.getElementById('text').style.background='#00ffcc';
+            document.getElementById('text').style.fontFamily='黑体';
+        }
+        function cg(){
+            document.getElementById('text').style.color='#995533';
+            document.getElementById('text').style.background='#ff9955';
+            document.getElementById('text').style.fontFamily='楷体';
+        }
+    </script>
+</body>
+</html>

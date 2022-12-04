@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一题</title>
+    <style>
+      .box{
+          width: 600px;
+          height: 100px;
+          background: #00ffcc;
+          padding: 280px 40px;
+        }
+      .box input[type='text']{
+          width: 30px;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+      <a>购买数量：</a>
+      <input type="button" value="-" id="subtract" onclick="sta()">
+      <input type="text" value="0" id="nums">
+      <input type="button" value="+" id="add" onclick="ad()">
+    </div>
+    <script>
+      var s = document.getElementById('subtract');
+      var a = document.getElementById('add');
+      function ad(){
+        document.getElementById('nums').value = parseInt(document.getElementById('nums').value)+1;
+      }
+      function sta(){
+        if(document.getElementById('nums').value>0){
+          document.getElementById('nums').value = parseInt(document.getElementById('nums').value)-1;
+        }else {
+          console.log("哦不，此数无法再减。");
+        }
+      }
+    </script>
+</body>
+</html>
