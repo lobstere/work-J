@@ -16,10 +16,10 @@ public class w_l_1 {
         for(int i=0;i<nums.length;i++){
             int temp=target-nums[i];
             if(map.containsKey(temp)){
-                arr[0]=map.get(nums[i]);
+                arr[0]=map.get(temp);
                 arr[1]=i;
             }
-            map.put(target-nums[i],i);
+            map.put(nums[i],i);
         }
         return arr;
     }
