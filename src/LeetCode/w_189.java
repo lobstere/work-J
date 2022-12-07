@@ -7,7 +7,7 @@ public class w_189 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("nums = ");
-        String[] nums = sc.nextLine().split(" ");
+        String[] nums = sc.nextLine().split(",");
         System.out.print("k = ");
         int k = sc.nextInt();
         int[] num = new int[nums.length];
@@ -23,6 +23,7 @@ public class w_189 {
         for (int i = 0; i < num.length; i++) {
             num[(i + k) % num.length] = tmps[i];
         }
+        System.out.println(Arrays.toString(num));
     }
 }
 //  题解
