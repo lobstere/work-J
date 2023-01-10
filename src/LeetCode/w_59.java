@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 public class w_59 {
     public static void main(String[] args) {
+        //测试数据
         int n = 4;
         System.out.println(Arrays.deepToString(getMatrix(n)));
     }
+    //主要代码
     public static int[][] getMatrix(int n) {
         int[][] arrs = new int[n][n];
         int a = 1, j = 0;
