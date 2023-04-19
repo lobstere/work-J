@@ -1,0 +1,8 @@
+# 自定义属性信息
+
+student:
+  school: ZhejiangUniversity
+  id: 2012000103
+  name: zhangsan
+  age: 18
+  courseid: 100018, 321001, 458911
